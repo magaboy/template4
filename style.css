@@ -213,3 +213,28 @@ nav a{
     top: 22px;
     left: 105px;
 }
+footer{
+    background-color: #FAFAFA;
+    padding: 85px 0;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item{
+    width: 20%;
+}
+.footer-menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+}
+.footer-icons{
+    width:70px;
+    display: flex;
+    justify-content: space-between;
+}
