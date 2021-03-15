@@ -164,7 +164,7 @@ nav a{
 .technology .title{
     padding: 60px 0 40px;
 }
-.icon{
+.technology-icon{
     height: 80px;
     width: 80px;
     display: flex;
@@ -173,4 +173,43 @@ nav a{
     position: absolute;
     top: 60px;
     left: 90px;
+}
+.saving-money{
+    background-color: #ED4C5C;
+    padding: 95px 0;
+}
+.saving-money-items{
+    display: flex;
+    justify-content: space-between;
+}
+.saving-money-item{
+    width: 433px;
+    color: #fff;
+}
+.icons{
+    width: 134px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.saving-money-item,
+.saving-money-item-2{
+    width: 45%;
+}
+.saving-money-item-2{
+    position: relative;
+}
+.img-1{
+    position: absolute;
+    z-index: 99;
+}
+.img-2{
+    position: absolute;
+    top: 22px;
+    left: -44px;
+}
+.img-3{
+    position: absolute;
+    top: 22px;
+    left: 105px;
 }
